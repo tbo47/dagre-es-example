@@ -30,6 +30,8 @@ export class AppComponent {
       return {};
     });
 
+    const style = "stroke: black; fill: #eee; stroke-width: 1px; ";
+
     // root
     g.setNode("root", {
       label: ` App Exp \n Optimization \n Improvement \n (Facebook)`,
@@ -62,18 +64,21 @@ export class AppComponent {
       label: "CDT",
       width: 50,
       height: 20,
+      style,
       shape: "ellipse"
     });
     g.setNode("ttc", {
       label: "TTC",
       width: 50,
       height: 20,
+      style,
       shape: "ellipse"
     });
     g.setNode("ssr", {
       label: "SSR",
       width: 50,
       height: 20,
+      style,
       shape: "ellipse"
     });
 
@@ -90,30 +95,35 @@ export class AppComponent {
       label: "PS Core",
       width: 50,
       height: 20,
+      style,
       shape: "ellipse"
     });
     g.setNode("dns", {
       label: "DNS",
       width: 50,
       height: 20,
+      style,
       shape: "ellipse"
     });
     g.setNode("cdn", {
       label: "CDN",
       width: 50,
       height: 20,
+      style,
       shape: "ellipse"
     });
     g.setNode("fbServers", {
       label: "FB Servers",
       width: 50,
       height: 20,
+      style,
       shape: "ellipse"
     });
     g.setNode("policy", {
       label: "Policy",
       width: 50,
       height: 20,
+      style,
       shape: "ellipse"
     });
 
@@ -130,20 +140,24 @@ export class AppComponent {
       label: "LTE",
       width: 50,
       height: 20,
+      style,
       shape: "ellipse"
     });
     g.setNode("uploadProcedure", {
       label: "Upload Procedure",
       width: 50,
       height: 20,
+      style,
       shape: "ellipse"
     });
     g.setNode("dataPlans", {
       label: "Data Plans",
       width: 50,
       height: 20,
+      style,
       shape: "ellipse"
     });
+
 
     // level 4
     g.setNode("performance", {
@@ -158,30 +172,35 @@ export class AppComponent {
       label: "Coverage",
       width: 50,
       height: 20,
+      style,
       shape: "ellipse"
     });
     g.setNode("capacity", {
       label: "Capacity",
       width: 50,
       height: 20,
+      style,
       shape: "ellipse"
     });
     g.setNode("delay", {
       label: "Processing Delay",
-      width: 50,
+      width: 150,
       height: 20,
+      style,
       shape: "ellipse"
     });
     g.setNode("packetLoss", {
       label: "Packet Loss",
       width: 50,
       height: 20,
+      style,
       shape: "ellipse"
     });
     g.setNode("tcpPerformance", {
       label: "TCP Performance",
       width: 50,
       height: 20,
+      style,
       shape: "ellipse"
     });
 
